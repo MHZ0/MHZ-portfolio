@@ -1,0 +1,20 @@
+---
+import { Image } from 'astro:assets';
+import EatNgo from '../assets/EatNgo.png';
+---
+
+<div>
+  <Image
+    class="project-image border  border-black"
+    src={EatNgo}
+    alt="EatNgo"
+    densities={[1, 2, 3]} 
+  />
+</div>
+
+<style>
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+</style>

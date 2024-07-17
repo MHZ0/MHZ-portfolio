@@ -1,0 +1,20 @@
+---
+import { Image } from 'astro:assets';
+import InsightPilot from '../assets/InsightPilot.png';
+---
+
+<div>
+  <Image
+    class="project-image border  border-black"
+    src={InsightPilot}
+    alt="InsightPilot"
+    densities={[1, 2, 3]} 
+  />
+</div>
+
+<style>
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+</style>
